@@ -284,7 +284,7 @@ body {
 
         <div class="info-row">
             <span class="label"><i class="fas fa-calendar"></i> Member Since</span>
-            <span class="value">{{ $user->created_at->format('F j, Y') }}</span>
+            <span class="value">{{ $user->created_at->format('12,08,2026') }}</span>
         </div>
 
         <div class="actions">
