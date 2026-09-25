@@ -97,6 +97,17 @@ class GuidanceController extends Controller
                 'reference' => 'Quran 7:31',
                 'readTime'  => '8 min',
             ],
+            [
+                'id'        => 8,
+                'topic'     => 'dawah',
+                'title'     => 'Effective Dawah: Inviting Others to Islam',
+                'excerpt'   => 'Guidelines on how to convey the message of Islam with wisdom, patience and good character.',
+                'arabic'    => 'ادْعُ إِلَى سَبِيلِ رَبِّكَ بِالْحِكْمَةِ وَالْمَوْعِظَةِ الْحَسَنَةِ',
+                'urdu'      => 'اپنے رب کی راہ کی طرف حکمت اور اچھی نصیحت کے ساتھ دعوت دو۔',
+                'english'   => 'Invite to the way of your Lord with wisdom and good instruction.',
+                'reference' => 'Quran 16:125',
+                'readTime'  => '12 min',
+            ]
         ];
 
         // Common Q&A
