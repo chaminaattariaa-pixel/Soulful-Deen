@@ -90,6 +90,16 @@ class HadithController extends Controller
                 'reliability' => 'Hasan/Sahih/Da\'if',
                 'description' => 'The sixth book of the Sunnah, compiled by Imam Ibn Majah (d. 273 AH).',
             ],
+            [
+                'slug' => 'muwatta-malik',
+                'name' => "Muwatta' Malik",
+                'arabic' => 'الموطأ',
+                'author' => 'Imam Malik ibn Anas',
+                'total_hadiths' => 1728,
+                'total_books' => 59,
+                'reliability' => 'Sahih/Hasan',
+                'description' => "One of the earliest hadith collections, compiled by Imam Malik (d. 179 AH).",
+            ],
         ];
     }
 
