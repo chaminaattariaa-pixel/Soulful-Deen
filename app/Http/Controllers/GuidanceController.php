@@ -86,6 +86,17 @@ class GuidanceController extends Controller
                 'reference' => 'Quran 99:7',
                 'readTime'  => '9 min',
             ],
+            [
+                'id'        => 7,
+                'topic'     => 'health',
+                'title'     => 'Maintaining Physical and Mental Health in Islam',
+                'excerpt'   => 'The importance of a balanced lifestyle, diet, exercise and mental wellbeing.',
+                'arabic'    => 'وَكُلُوا وَاشْرَبُوا وَلَا تُسْرِفُوا',
+                'urdu'      => 'کھاؤ اور پیو اور حد سے تجاوز نہ کرو۔',
+                'english'   => 'Eat and drink but do not be excessive.',
+                'reference' => 'Quran 7:31',
+                'readTime'  => '8 min',
+            ],
         ];
 
         // Common Q&A

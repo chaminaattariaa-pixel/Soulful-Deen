@@ -59,16 +59,7 @@ class HadithController extends Controller
                 'reliability' => 'Hasan/Sahih',
                 'description' => 'Focused on legal (fiqh) hadiths, compiled by Imam Abu Dawud (d. 275 AH).',
             ],
-            [
-                'slug' => 'tirmidhi',
-                'name' => "Jami' at-Tirmidhi",
-                'arabic' => 'جامع الترمذي',
-                'author' => 'Imam Abu Isa at-Tirmidhi',
-                'total_hadiths' => 3956,
-                'total_books' => 49,
-                'reliability' => 'Hasan/Sahih',
-                'description' => 'Unique for grading each hadith, compiled by Imam at-Tirmidhi (d. 279 AH).',
-            ],
+           
             [
                 'slug' => 'nasai',
                 'name' => "Sunan an-Nasa'i",
@@ -78,6 +69,16 @@ class HadithController extends Controller
                 'total_books' => 51,
                 'reliability' => 'Sahih/Hasan',
                 'description' => 'Strictest in narrator criticism, compiled by Imam an-Nasa\'i (d. 303 AH).',
+            ],
+             [
+                'slug' => 'tirmidhi',
+                'name' => "Jami' at-Tirmidhi",
+                'arabic' => 'جامع الترمذي',
+                'author' => 'Imam Abu Isa at-Tirmidhi',
+                'total_hadiths' => 3956,
+                'total_books' => 49,
+                'reliability' => 'Hasan/Sahih',
+                'description' => 'Unique for grading each hadith, compiled by Imam at-Tirmidhi (d. 279 AH).',
             ],
             [
                 'slug' => 'ibnu-majah',

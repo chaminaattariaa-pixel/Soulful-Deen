@@ -251,7 +251,7 @@ body {
     </div>
 </nav>
 
-<div class="profile-wrap">
+com<div class="profile-wrap">
 
     @if(session('success'))
         <div class="alert success">
